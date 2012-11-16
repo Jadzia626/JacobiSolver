@@ -130,7 +130,7 @@ void Jacobi::Cyclic(Mat<double> *mA, Col<double> *mV, int *iIt, int *iRot) {
 
     Mat<double> mJ;
 
-    while(fLFrobenius(mA) >= CONVERGE && k < MAX_IT) {
+    while(fLFrobenius(mA) >= CONVERGE && r < 3*MAX_IT ) {
 
         for(int p=0; p<iDim-1; p++) {
             for(int q=p+1; q<iDim; q++) {
