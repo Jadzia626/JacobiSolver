@@ -35,8 +35,8 @@ int main(int argc, char* argv[]) {
     //~ mH.load("Data/Binary-Eff-ECut/Ham-2P-3R-Dim8x8.arma");
     //~ mH.load("Data/Binary-Eff/Ham-2P-6R-Dim47x47.arma");
     //~ mH.load("Data/Binary-Eff/Ham-2P-8R-Dim104x104.arma");
-    mH.load("Data/Binary-Eff/Ham-2P-10R-Dim195x195.arma");
-    //~ mH.load("Data/Binary-Eff/Ham-2P-14R-Dim511x511.arma");
+    //~ mH.load("Data/Binary-Eff/Ham-2P-10R-Dim195x195.arma");
+    mH.load("Data/Binary-Eff/Ham-2P-14R-Dim511x511.arma");
     //~ mH.load("Data/Binary-Eff/Ham-2P-20R-Dim1440x1440.arma");
 
     iN = (int)mH.n_cols;
